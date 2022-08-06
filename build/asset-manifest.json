@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b27fa015.css",
+    "main.js": "/static/js/main.9dfdef9c.js",
+    "static/media/fireThree.gif": "/static/media/fireThree.c3385eddcd39044be4a6.gif",
+    "static/media/facialRec.png": "/static/media/facialRec.6a1ffc1f8bd159db360d.png",
+    "static/media/poseEstemation.png": "/static/media/poseEstemation.b11a6e3b1056284fd179.png",
+    "static/media/iris.png": "/static/media/iris.f13e0dcd971f60cace41.png",
+    "static/media/fireTwo.webp": "/static/media/fireTwo.7deab3482a3e1fbb9ebb.webp",
+    "static/media/algorithsCpp.png": "/static/media/algorithsCpp.fa9afe89b8ac19372be7.png",
+    "static/media/vrLab.png": "/static/media/vrLab.bf0c3c982241c8c32678.png",
+    "static/media/objectRec.png": "/static/media/objectRec.048632b568ce3af964cf.png",
+    "static/media/vector.png": "/static/media/vector.57528d63cc61b8c36da2.png",
+    "static/media/spike.png": "/static/media/spike.1d2dcdd4d4b74f260254.png",
+    "static/media/tensor.png": "/static/media/tensor.6bac6cab1de38a32c766.png",
+    "static/media/algorithms.png": "/static/media/algorithms.ce3f2985cbef6925050f.png",
+    "static/media/graph.png": "/static/media/graph.ad0dd91a3f8284d9657f.png",
+    "static/media/sing.png": "/static/media/sing.8e9c30f9e2ee3011d31b.png",
+    "static/media/androids.png": "/static/media/androids.c3cce73a959650ab1758.png",
+    "static/media/calc.png": "/static/media/calc.163b7a3b8b6fe3b1441c.png",
+    "static/media/thousand.png": "/static/media/thousand.4795a84f40fdccdee2c0.png",
+    "static/media/businessC.jpg": "/static/media/businessC.9e70bed38d467ec1e654.jpg",
+    "index.html": "/index.html",
+    "main.b27fa015.css.map": "/static/css/main.b27fa015.css.map",
+    "main.9dfdef9c.js.map": "/static/js/main.9dfdef9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b27fa015.css",
+    "static/js/main.9dfdef9c.js"
+  ]
+}
