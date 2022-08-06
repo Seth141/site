@@ -146,7 +146,7 @@ export const testimonials = [
   {
     authorImg: s,
     authorText:
-      'The Singularity is Near',
+      ' Singularity is Near',
     authorName: '',
     linkInsert: 'https://www.goodreads.com/en/book/show/83518.The_Singularity_is_Near',
   },
