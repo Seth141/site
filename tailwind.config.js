@@ -30,6 +30,7 @@ module.exports = {
         secondary: '#1C1D24',
         tertiary: '#131419',
         accent: {
+          socials: '#ffffff',
           DEFAULT: '#878e99',
           hover: '#656565',
         },
@@ -39,3 +40,4 @@ module.exports = {
   },
   plugins: [],
 };
+
