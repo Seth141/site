@@ -19,6 +19,8 @@ const MobileNav = () => {
         type: 'spring',
         stiffness: 160,
         damping: 60,
+        velocity: 1,
+        
       },
     },
   };
@@ -28,10 +30,17 @@ const MobileNav = () => {
     visible: {
       opacity: 1,
       transition: {
-        delay: 0.1,
+        delay: 0,
       },
     },
   };
+
+  const x = {
+    type: "spring",
+    stiffness: 2000, 
+    stiffness: 10,
+    scale: 180,
+  }
 
   return (
     <nav className='relative'>
@@ -58,20 +67,25 @@ const MobileNav = () => {
         <div
           onClick={() => setIsOpen(false)}
           className='cursor-pointer absolute top-8 right-8'
-        >
+        ><motion.div
+          vartients={x}
+         >
           <XIcon className='w-8 h-8' />
+         </motion.div>
         </div>
         {navigation.map((item, idx) => {
           return (
             <li key={idx} className='mb-8'>
               <Link
+                onClick={() => setIsOpen(false)}
                 to={item.href}
                 smooth={true}
-                duration={400}
+                duration={500}
                 offset={-70}
                 className='text-xl cursor-pointer capitalize'
               >
                 {item.name}
+                {/*possibly hide the menu once a given link has been clicked here. */}
               </Link>
             </li>
           );
